@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Gabriel Rsso</title>
+</head>
+
+<body>
+  <!--Para colocar la imagen a un costado solo usando HTML se coloca dentro de una tabla-->
+  <table cellspacing="15">
+    <tr>
+      <td><img src="images/fakeimg.png" alt="Profile picture"></td>
+      <td><h1>Gabriel Rsso</h1>
+          <h3><em>Desarrollador web</em></h3></td>
+    </tr>
+  </table>
+  <!--la etiqueta <em> pone enfasis sobre lo escrito mientras que la etiqueta <i> solo muestra en cursiva-->
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <hr size="3" noshade>
+  <!--La etiqueta hr genera una linea horizontal y puede modificarse con atributos-->
+  <h3>Educación</h3>
+  <ul>
+    <li><a href="https://udemy.com">Udemy</a></li>
+    <ul>
+      <li>Curso de Desarrollo web</li>
+    </ul>
+    <li>Platzi</li>
+    <ul>
+      <li>Curso de Javascript</li>
+    </ul>
+  </ul>
+  <!--Listas desordenadas, se pueden agregar dentro de otras y quedan como sublistas-->
+  <hr size="3" noshade>
+  <h3>Trabajo</h3>
+  <table border="1" cellspacing="10">
+    <!--Deprecated, es cuando se encuentra algo discontinuado, como atributos dentro de la etiqueta HTML-->
+    <thead>
+      <th>Fecha</th>
+      <th>Cargo</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2013 - Actualidad</td>
+        <td><a href="#">DTVSA</a></td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>Desarrollo Web</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+  <!--Las tablas tienen 3 partes, thead, tbody y tfoot. Con tr se definen las filas y td cada celda que forman las columnas-->
+  <hr size="3" noshade>
+  <!--Listas ordenadas, agregando el atributo type puede cambiar de numeros comunes a romanos entre otros-->
+  <h3>Skills</h3>
+    <table border="1" cellspacing="10">
+      <tr>
+        <td>
+          <table cellspacing="10">
+            <tr>
+              <td>Trabajo</td>
+              <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Ingles</td>
+              <td>⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table cellspacing="10">
+            <tr>
+              <td>Desempeño</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+              <td>Diseño</td>
+              <td>⭐⭐⭐⭐</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  <!--Conclusión, se pueden insertar tablas dentro de celdas de tablas-->
+  <hr size="3" noshade>
+  <h3><a href="contacto.html">Contacto</a></h3>
+  <hr size="3" noshade>
+  <h3><a href="inputs.html">Prueba de Inputs</a></h3>
+</body>
+
+</html>

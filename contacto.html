@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gabriel Russo - Contacto</title>
+  </head>
+  <body>
+    <h2>Contacto</h2>
+    <ul>
+      <li>Tel: 1123456789</li>
+      <li>Mail: mail@mail.com</li>
+    </ul>
+    <hr size="3" noshade>
+    <!--Por defecto la accion deriva al index.html cambiando a mailto: y un mail, al presionar enviar se abrira la aplicacion de correo con la información del formulario-->
+    <form action="mailto:prueba@gr.com" method="post" enctype="text/plain"><!--Se coloca enctype="text/plain" para codificar el mensaje que se esta derivando al correo-->
+      <label>Tu Nombre</label>
+      <input type="text" name="Nombre" placeholder="Nombre"><br>
+      <label>Tu E-mail</label>
+      <input type="email" name="Email" placeholder="ejemplo@ejemplo.com"><br>
+      <label>Mensaje</label><br>
+      <textarea name="Mensaje" rows="10" cols="30" placeholder="Tu mensaje"></textarea><br><!--Textarea no forma parte de los inputs sino que es una etiqueta HTML-->
+      <input type="checkbox" name="OK_News">
+      <label>Deseo recibir novedades.</label><br>
+      <input type="submit" value="Enviar">
+    </form>
+    <h4><a href="index.html">Volver</a></h4>
+  </body>
+</html>
